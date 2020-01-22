@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ec567c84-7632-41d1-a8cc-5bdfa474862f": {
+        "id": "ec567c84-7632-41d1-a8cc-5bdfa474862f",
+        "parent": null,
+        "name": "californiatest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "19b2ceb6-3d06-467b-ac09-2d71fbefdc84"
+        ],
+        "isRemovable": false,
+        "filePath": "californiatest"
+      },
+      "19b2ceb6-3d06-467b-ac09-2d71fbefdc84": {
+        "id": "19b2ceb6-3d06-467b-ac09-2d71fbefdc84",
+        "parent": "ec567c84-7632-41d1-a8cc-5bdfa474862f",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "californiatest/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusWest1californiaSachithraqainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "ec567c84-7632-41d1-a8cc-5bdfa474862f",
+    "openFiles": [
+      "19b2ceb6-3d06-467b-ac09-2d71fbefdc84"
+    ],
+    "currentFileId": "19b2ceb6-3d06-467b-ac09-2d71fbefdc84",
+    "resources": {
+      "apigusWest1californiaSachithraqainduany": {
+        "name": "apigusWest1californiaSachithraqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-1",
+          "apiMode": 0,
+          "apiName": "californiaSachithra",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "californiatest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-west-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1579679090084
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "californiatest",
+      "url": "https://github.com/Indunil1992/californiatest"
+    }
+  }
+}
